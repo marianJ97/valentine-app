@@ -1,0 +1,16 @@
+.container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(55, 1, 1);
+}
+
+.auth {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.auth p {
+  font-family: "GordQuick";
+  font-size: 20px;
+  margin-bottom: 5px;
+}

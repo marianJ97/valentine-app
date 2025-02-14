@@ -1,0 +1,28 @@
+.questions {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions span {
+  background-color: #ed636b;
+  border-radius: 5px;
+  width: 80px;
+  color: #f7fcfa;
+  font-size: 25px;
+  box-shadow: 4px 4px 5px rgba(245, 86, 86, 0.484);
+  transition: 0.1s all;
+}
+
+.questions span:hover {
+  background-color: #f1c6bb;
+  color: #2d2f30;
+  cursor: pointer;
+}
+
+.questions span:active {
+  transform: scale(1.2);
+  color: #2d2f30;
+}

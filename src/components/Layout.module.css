@@ -1,0 +1,22 @@
+.layout {
+  width: 80vw;
+  height: 80vh;
+  background-color: #e6e6e6eb;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(66, 65, 65, 0.501);
+  padding: 15px;
+  font-family: "GordQuick";
+  font-weight: 100;
+  font-size: medium;
+  color: #ed636b;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .layout {
+    max-width: 400px;
+    height: 90vh;
+  }
+}

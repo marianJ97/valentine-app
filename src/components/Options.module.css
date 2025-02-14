@@ -1,0 +1,30 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.option,
+.active {
+  background-color: #ed636b;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+  color: #f7fcfa;
+  font-size: 15px;
+  box-shadow: 4px 4px 5px rgba(245, 86, 86, 0.484);
+  transition: 0.1s all;
+}
+
+.active {
+  background-color: #49a54c;
+  box-shadow: 4px 4px 5px rgba(96, 169, 113, 0.484);
+}
+
+.questions .option:hover {
+  background-color: #f1c6bb;
+  color: #2d2f30;
+  cursor: pointer;
+}
